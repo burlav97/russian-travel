@@ -1,0 +1,6 @@
+.cover__link {
+    background-image: url(../../../images/transsib.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}

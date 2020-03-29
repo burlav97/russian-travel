@@ -1,0 +1,14 @@
+.video__item-kamchatka {
+    background-image: url(../../../images/kamchatka.png);
+    position: relative;
+}
+@media screen and (min-width : 425px) and (max-width : 768px) {
+    .video__item-kamchatka {
+        margin-bottom: 8px;
+    }
+ }
+ @media screen and (max-width : 425px) {
+    .video__item-kamchatka {
+        margin-bottom: 8px;
+    }
+ }

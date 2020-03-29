@@ -1,0 +1,46 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+.cover {
+    margin: 102px auto 160px; 
+    color: #fff;    
+    background-image: url(../../images/transsib.png);  
+    background-repeat: no-repeat;  
+    text-decoration: none;
+    max-width: 1184px;
+    height: 594px;
+    min-height: 272px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+ 
+}
+@media screen and (max-width : 1084px) {
+    .cover {
+        max-width: 1045px;
+        height: 562px;
+    }
+ }
+ @media screen and (min-width : 768px) and (max-width : 1084px) {
+    .cover {
+        max-width: 100%;
+        height: 500px;  
+    }
+ }
+ @media screen and (min-width : 425px) and (max-width : 768px) {
+    .cover {
+        max-width: 375px;
+        height: 272px;  
+        margin: 0 auto 64px;
+    }
+ }
+ @media screen and (max-width : 425px) {
+    .cover {
+        max-width: 288px;
+        height: 216px;  
+        margin: 0 auto 64px;
+    }
+ }

@@ -1,0 +1,13 @@
+.intro__paragraph {
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 24px;
+}
+@media screen and (min-height : 425px) and (max-width : 1084px) {
+    .intro__paragraph {
+        font-size: 1rem;
+        line-height: 27px;
+    }
+ }

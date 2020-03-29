@@ -1,0 +1,10 @@
+.lead__image {
+    width: 100%;  
+    margin-bottom: 11px;
+    background-size: contain;
+}
+@media screen and (min-height : 425px) and (max-width : 1084px) {
+    .lead__image {
+        margin: 0 0 11px;
+    }
+ }

@@ -1,0 +1,12 @@
+@media screen and (min-width : 768px) and (max-width : 1084px) {
+.comment__author {
+    order: 1;
+    margin: 0 0 24px;
+}
+}
+@media screen and (max-width : 425px) {
+    .comment__author {
+        order: 1;
+        margin: 0 0 24px;
+    }
+    }

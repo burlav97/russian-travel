@@ -1,0 +1,9 @@
+.header__link_state-active {
+    border-bottom: 2px solid #fff;
+    margin-right: 18px;
+}
+@media screen and (min-height : 425px) and (max-width : 1084px) {
+    .header__link_state-active {
+        margin-right: 16px;        
+    }
+ }

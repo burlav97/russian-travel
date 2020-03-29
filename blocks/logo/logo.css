@@ -1,0 +1,13 @@
+.logo {
+    width: 177px;
+    height: 52px;
+    background-size: cover;
+    background-image: url(../../images/logo.png);
+    grid-area: logo;
+}
+@media screen and (min-height : 425px) and (max-width : 1084px) {
+    .logo {
+        width: 142px;
+        height: 42px;
+    }
+ }

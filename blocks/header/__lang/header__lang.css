@@ -1,0 +1,16 @@
+.header__lang {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    max-width: 78px;
+    height: 23px;
+    flex-direction: row;
+    grid-area: links;
+    justify-self: end;
+}
+@media screen and (min-height : 425px) and (max-width : 1084px) {
+    .header__lang {
+        max-width: 76px;
+        min-height: 18px;        
+    }
+ }

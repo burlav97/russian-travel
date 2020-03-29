@@ -1,0 +1,27 @@
+@import url(./__container/comments__container.css);
+.comments {
+    max-width: 1184px;
+    margin: 0 auto;
+    min-height: 618px;    
+}
+@media screen and (max-width : 1084px) {
+    .comments {
+        min-height: 650px;
+    }
+ }
+ @media screen and (min-width : 768px) and (max-width : 1084px) {
+    .comments {
+        min-height: 1033px;        
+    }
+ }
+ @media screen and (min-width : 425px) and (max-width : 768px) {
+    .comments {
+        min-height: 1089px;        
+    }
+ }
+ @media screen and (max-width : 425px) {
+    .comments {
+        min-height: 1136px;        
+    }
+ }
+ 
