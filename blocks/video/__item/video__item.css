@@ -8,6 +8,10 @@
     flex-direction: column; 
     justify-content: space-between;     
 }
+.video__item:hover {
+    opacity: 0.8;
+    background-color: #000;
+}
 @media screen and (min-width : 425px) and (max-width : 768px) {
     .video__item {
         align-items: flex-start;

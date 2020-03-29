@@ -6,11 +6,16 @@
 @import url(./__duration/video__duration.css);
 @import url(./__title/video__title.css);
 @import url(./__subtitle/video__subtitle.css);
+@import url(./__overlay/video__overlay.css);
 
 .video {
     min-height: 648px;
     max-width: 1184px;
     margin: 0 auto;
+}
+video__item:hover video__overlay {
+    background-color: black;
+    opacity: 0.5;
 }
 @media screen and (max-width : 1084px) {
     .video {

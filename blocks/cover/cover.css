@@ -1,5 +1,6 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
+@import url(./__overlay/cover__overlay.css);
 .cover {
     margin: 102px auto 160px; 
     color: #fff;    
@@ -17,6 +18,10 @@
     align-items: center;
     justify-content:flex-end;
  
+}
+.cover:hover {
+    opacity: 0.8;
+    background-color: #000;
 }
 @media screen and (max-width : 1084px) {
     .cover {
