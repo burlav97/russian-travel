@@ -4,26 +4,26 @@
     margin: 0 auto;
     min-height: 618px;    
 }
-@media screen and (max-width : 1024px) {
+@media screen and (min-width : 1024px) and (max-width : 1280px) {
     .comments {
-        min-height: 650px;
+        max-height: 850px;
         margin-bottom: 80px;  
+        max-width: 928px;
     }
  }
- @media screen and (min-width : 768px) and (max-width : 1024px) {
+ @media screen and (min-width : 768px) and (max-width : 1023px) {
     .comments {
-        min-height: 1033px;  
-            
+        min-height: 1033px;              
     }
  }
- @media screen and (min-width : 425px) and (max-width : 768px) {
+ @media screen and (min-width : 425px) and (max-width : 767px) {
     .comments {
         min-height: 1089px;        
     }
  }
- @media screen and (max-width : 425px) {
+ @media screen and (max-width : 424px) {
     .comments {
-        min-height: 1136px;        
+        min-height: 1236px;        
     }
  }
  

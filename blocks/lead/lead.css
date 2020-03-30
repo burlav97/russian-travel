@@ -9,24 +9,24 @@
     max-width: 985px;
     margin: 48px auto 80px;
 }
-@media screen and (max-width : 1024px) {
+@media screen and (min-width : 1024px) and (max-width : 1280px) {
     .lead {
         max-width: 928px;
     }
  }
- @media screen and (min-height : 768px) and (max-width : 1024px) {
+ @media screen and (min-height : 768px) and (max-width : 1023px) {
     .lead {
         max-width: 768px;
     }
  }
- @media screen and (min-width : 425px) and (max-width : 768px) {
+ @media screen and (min-width : 425px) and (max-width : 767px) {
     .lead {
         max-width: 375px;
         min-height: 412px;
         margin: 48px auto 64px;
     }
  }
- @media screen and (max-width : 425px) {
+ @media screen and (max-width : 424px) {
     .lead {
         max-width: 320px;
         min-height: 412px;

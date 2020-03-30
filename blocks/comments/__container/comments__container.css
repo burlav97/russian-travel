@@ -4,24 +4,33 @@
     display: flex;
     flex-direction: row;
     color: #fff;    
+    max-height: 339px;
 }
-@media screen and (min-width : 768px) and (max-width : 1024px) {
+@media screen and (min-width : 1024px) and (max-width : 1280px) {
     .comments__container {
+       min-height: 339px;   
+       padding: 0;
+    }
+ }
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .comments__container {
+        min-height: 806px;
         max-width: 382px;
         flex-direction: column;  
         padding: 0;   
         align-items: center;   
     }
  }
- @media screen and (min-width : 425px) and (max-width : 768px) {
+ @media screen and (min-width : 425px) and (max-width : 767px) {
     .comments__container {
+        min-height: 881px;
         max-width: 343px;
         flex-direction: column;  
         padding: 0;   
         align-items: center;   
     }
  }
- @media screen and (max-width : 425px) {
+ @media screen and (max-width : 424px) {
     .comments__container {
         max-width: 288px;
         min-height: 904px;

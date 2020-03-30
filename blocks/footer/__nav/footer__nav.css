@@ -5,7 +5,10 @@
     justify-content: space-between;
     color: #fff;
     position: relative;
+}
+.footer__nav ul {
     margin: 0 18px 0 0;
+    padding: 0;
 }
 @media screen and (min-width : 425px) and (max-width : 768px) {
     .footer__nav {
