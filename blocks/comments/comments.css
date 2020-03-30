@@ -4,14 +4,16 @@
     margin: 0 auto;
     min-height: 618px;    
 }
-@media screen and (max-width : 1084px) {
+@media screen and (max-width : 1024px) {
     .comments {
         min-height: 650px;
+        margin-bottom: 80px;  
     }
  }
- @media screen and (min-width : 768px) and (max-width : 1084px) {
+ @media screen and (min-width : 768px) and (max-width : 1024px) {
     .comments {
-        min-height: 1033px;        
+        min-height: 1033px;  
+            
     }
  }
  @media screen and (min-width : 425px) and (max-width : 768px) {

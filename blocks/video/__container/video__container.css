@@ -5,13 +5,13 @@
     grid-template-rows: 1fr;
     grid-gap: 18px;    
 }
-@media screen and (max-width : 1084px) {
+@media screen and (max-width : 1024px) {
     .video__container {
         min-height: 288px;
         grid-gap: 16px;
     }
  }
- @media screen and (min-width : 768px) and (max-width : 1084px) {
+ @media screen and (min-width : 768px) and (max-width : 1024px) {
     .video__container {
         min-height: 200px;
     }
