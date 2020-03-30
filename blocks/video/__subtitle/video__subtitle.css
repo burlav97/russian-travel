@@ -5,4 +5,5 @@
     line-height: 15px;
     margin: 0 0 35px 30px;
     width: 67%;
+    z-index: 1;
 }
