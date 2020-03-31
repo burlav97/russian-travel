@@ -3,57 +3,33 @@
 @import url(./__author/comment__author.css);
 .comment {
     width: 30%;
-    height: 213px;
     list-style: none;
-    margin-right: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
-.comment:last-of-type {
-    margin-right: 0;
-}
-
-@media screen and (min-width : 768px) and (max-width : 1024px) {
+@media screen and (min-width : 768px) and (max-width : 1023px) {
     .comment {
         width: 100%; 
-        margin: 0 0 47px; 
-        min-height: 200px ;
-        max-height: 339px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;  
-    }
-    .comment:nth-of-type(2){
-         height: 339px;
+        margin: 0 0 47px;       
+        align-items: center;
+        justify-content: space-between;  
     }
  }
  @media screen and (min-width : 425px) and (max-width : 767px) {
     .comment {
         width: 100%;
-        min-height: 223px ;
-        max-height: 339px; 
         margin: 0 0 47px; 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center; 
+        align-items: center;
+        justify-content: space-between;        
     }
-    .comment:nth-of-type(2){
-        height: 339px;
-   }
  }
  @media screen and (max-width : 424px) {
     .comment {
         width: 100%;
-        min-height: 223px;  
-        max-height: 339px;  
         margin: 0 0 47px; 
-        display: flex;
-        flex-direction: column;
+        align-items: center;
         justify-content: space-between;
-        align-items: center; 
     }
-    .comment:nth-of-type(2){
-        min-height: 339px;
-   }
-
  }

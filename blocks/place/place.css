@@ -6,7 +6,6 @@
 @import url(./__image/place__image.css);
 .place {
     max-width: 984px;
-    min-height: 653px;
     margin: 0 auto 72px;
     display: grid;
     grid-column-gap: 40px;
@@ -14,22 +13,22 @@
     grid-template-columns: repeat(2, fit-content(50%));
     grid-template-rows: 133px 460px;
 }
-@media screen and (max-width : 1024px) {
+@media screen and (min-width : 1024px) and (max-width : 1280px){
     .place {
         max-width: 928px;
         grid-column-gap: 32px;
         grid-row-gap: 40px;
-        min-height: 573px;
     }
  }
- @media screen and (min-width : 768px) and (max-width : 1024px) {
+ @media screen and (min-width : 768px) and (max-width : 1023px) {
     .place {
         max-width: 720px;
         grid-column-gap: 28px;
-        min-height: 599px;
+        grid-template-rows: 104px 470px;
+        grid-template-columns:340px 352px;
     }
  }
- @media screen and (min-height : 425px) and (max-width : 768px) {
+ @media screen and (min-height : 425px) and (max-width : 767px) {
     .place {
         max-width: 343px;
         display: flex;

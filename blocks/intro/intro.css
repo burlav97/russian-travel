@@ -5,12 +5,13 @@
 @import url(./__point-accent/intro__point-accent.css);
 @import url(./__container/intro__container.css);
 .intro{
-    min-height: 371px;
     margin: 0 auto;
     color: #fff;
     max-width: 998px;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 @media screen and (max-width : 1024px) {
     .intro {
@@ -22,7 +23,7 @@
         max-width: 720px;
     }
  }
- @media screen and (min-height : 425px) and (max-width : 768px) {
+ @media screen and (min-height : 425px) and (max-width : 767px) {
     .intro {
         max-width: 343px;
     }

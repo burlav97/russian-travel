@@ -1,10 +1,11 @@
 .comments__container {
-    margin: 0 auto 102px;;
+    margin: 0 auto 102px;
+    padding: 0;
     width: 100%;
     display: flex;
     flex-direction: row;
-    color: #fff;    
-    max-height: 339px;
+    justify-content: space-between;
+    color: #fff;  
 }
 @media screen and (min-width : 1024px) and (max-width : 1280px) {
     .comments__container {
@@ -14,28 +15,30 @@
  }
 @media screen and (min-width : 768px) and (max-width : 1023px) {
     .comments__container {
-        min-height: 806px;
         max-width: 382px;
         flex-direction: column;  
         padding: 0;   
-        align-items: center;   
+        align-items: center;  
+        justify-content: space-between; 
+        margin: 0 auto 102px;
     }
  }
  @media screen and (min-width : 425px) and (max-width : 767px) {
     .comments__container {
-        min-height: 881px;
         max-width: 343px;
+        margin: 0 auto 48px;
         flex-direction: column;  
         padding: 0;   
         align-items: center;   
+        justify-content: center; 
     }
  }
  @media screen and (max-width : 424px) {
     .comments__container {
         max-width: 288px;
-        min-height: 904px;
         flex-direction: column;  
         padding: 0;   
-        align-items: center;   
+        align-items: center;  
+        justify-content: space-between;  
     }
  }

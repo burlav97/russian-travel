@@ -7,10 +7,9 @@
 @import url(./__title/video__title.css);
 @import url(./__subtitle/video__subtitle.css);
 @import url(./__overlay/video__overlay.css);
-
+@import url(./__text-container/video__text-container.css);
 
 .video {
-    min-height: 648px;
     max-width: 1184px;
     margin: 0 auto;
 }
@@ -18,28 +17,24 @@
     background-color: black;
     opacity: 0.8;
 }
-@media screen and (max-width : 1024px) {
+@media screen and (min-width : 1024px) and (max-width : 1280px){
     .video {
         max-width: 928px;
-        min-height: 614px;
     }
  }
- @media screen and (min-width : 768px) and (max-width : 1024px) {
+ @media screen and (min-width : 768px) and (max-width : 1023px) {
     .video {
         max-width: 720px;
-        min-height: 442px;
     }
  }
- @media screen and (min-width : 425px) and (max-width : 768px) {
+ @media screen and (min-width : 425px) and (max-width : 767px) {
     .video {
         max-width: 343px;
-        min-height: 598px;
     }
  }
- @media screen and (max-width : 425px) {
+ @media screen and (max-width : 424px) {
     .video {
-        max-width: 288px;
-        min-height: 616px;  
+        max-width: 288px; 
         margin: 0 auto 64px;
     }
  }

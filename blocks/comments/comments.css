@@ -2,28 +2,21 @@
 .comments {
     max-width: 1184px;
     margin: 0 auto;
-    min-height: 618px;    
 }
 @media screen and (min-width : 1024px) and (max-width : 1280px) {
     .comments {
-        max-height: 850px;
         margin-bottom: 80px;  
         max-width: 928px;
     }
  }
  @media screen and (min-width : 768px) and (max-width : 1023px) {
     .comments {
-        min-height: 1033px;              
-    }
- }
- @media screen and (min-width : 425px) and (max-width : 767px) {
-    .comments {
-        min-height: 1089px;        
+    max-width: 660px;
     }
  }
  @media screen and (max-width : 424px) {
     .comments {
-        min-height: 1236px;        
+        max-width: 343px;       
     }
  }
  

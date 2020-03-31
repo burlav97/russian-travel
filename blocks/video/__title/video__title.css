@@ -3,9 +3,9 @@
     font-weight: 900;
     font-size: 36px;
     line-height: 39px;
-    margin: 12px 0 18px 30px;
     width: 50%;
     z-index: 1;
+    margin: 12px 0 18px;
 }
 @media screen and (min-width : 1024px) and (max-width : 1280px){
     .video__title {
@@ -17,20 +17,22 @@
        font-size: 24px;
        width: 80%;
        line-height: 26px;
+       margin: 8px 0 4px;
     }
  }
  @media screen and (min-width : 425px) and (max-width : 767px) {
    .video__title {
-      width: 86%;
+      width: 95%;
       font-size: 24px;
-      line-height: 26px;       
+      line-height: 26px; 
+      margin: 8px 0 3px;      
    }
 }
 @media screen and (max-width : 424px) {
    .video__title {
-      width: 86%;
+      width: 95%;
       font-size: 24px;
-      line-height: 26px;    
-      margin: 8px 0 2px 16px;   
+      line-height: 26px; 
+      margin: 8px 0 3px;      
    }
 }

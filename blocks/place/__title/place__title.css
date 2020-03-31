@@ -9,21 +9,23 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    align-self: end;
+    display: flex;
+    align-items: flex-end;
 }
-@media screen and (min-width : 768px) and (max-width : 1024px) {
+@media screen and (min-width : 768px) and (max-width : 1023px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
+        height: 104px;
     }
  }
- @media screen and (min-width : 425px) and (max-width : 768px) {
+ @media screen and (min-width : 425px) and (max-width : 767px) {
     .place__title {
         font-size: 2rem;
         line-height: 2.2;
     }
  }
- @media screen and (max-width : 425px) {
+ @media screen and (max-width : 424px) {
     .place__title {
         font-size: 2rem;
         line-height: 2.2;
