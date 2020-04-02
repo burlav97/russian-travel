@@ -1,6 +1,9 @@
 .video__item-observatory {
     background-image: url(../../../images/observatory.png);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 @media screen and (min-width : 425px) and (max-width : 767px) {
     .video__item-observatory {
