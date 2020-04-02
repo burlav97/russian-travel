@@ -7,3 +7,7 @@
     color: #fff;
     margin: 0;
 }
+.place__url:hover {
+    opacity: 0.8;
+    transition: opacity  0.9s ease-in-out;
+}

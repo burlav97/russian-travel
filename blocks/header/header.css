@@ -12,14 +12,14 @@
     "logo links";
     align-items: center;
 }
-@media screen and (min-width : 1024px) and (max-width : 1280px) {
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
    .header {
        max-width: 928px;
    }
 }
 @media screen and (min-width : 768px) and (max-width : 1023px) {
     .header {
-        max-width: 768px;
+        max-width: 720px;
     }
  }
  @media screen and (min-width : 425px) and (max-width : 767px) {

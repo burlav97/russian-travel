@@ -3,7 +3,7 @@
     max-width: 1184px;
     margin: 0 auto;
 }
-@media screen and (min-width : 1024px) and (max-width : 1280px) {
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
     .comments {
         margin-bottom: 80px;  
         max-width: 928px;
@@ -14,9 +14,14 @@
     max-width: 660px;
     }
  }
- @media screen and (max-width : 424px) {
+ @media screen and (min-width : 375px) and (max-width : 424px) {
     .comments {
         max-width: 343px;       
+    }
+ }
+ @media screen and (min-width : 320px) and (max-width : 374px) {
+    .comments {
+        max-width: 288px;       
     }
  }
  

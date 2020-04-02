@@ -1,52 +1,50 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__overlay/cover__overlay.css);
-
 .cover {
     margin: 102px auto 160px; 
     color: #fff;    
     background-image: url(../../images/transsib.png);  
     background-repeat: no-repeat;  
     text-decoration: none;
-    max-width: 1184px;
-    height: 594px;
-    min-height: 272px;
     background-size: cover;
     background-position: center;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:flex-end;
- 
+    justify-content:flex-end; 
 }
 .cover:hover .cover__overlay {
     opacity: 0.8;
     background-color: #000;
 }
-@media screen and (max-width : 1024px) {
+@media screen and (min-width : 1024px) and (max-width : 1280px) {
     .cover {
-        max-width: 1045px;
-        height: 562px;
+        max-width: 1024px;
     }
  }
- @media screen and (min-width : 768px) and (max-width : 1024px) {
+ @media screen and (min-width : 768px) and (max-width : 1023px) {
     .cover {
-        max-width: 100%;
-        height: 500px;  
+        max-width: 768px;
+        margin: 102px auto;
     }
  }
- @media screen and (min-width : 425px) and (max-width : 768px) {
+ @media screen and (min-width : 425px) and (max-width : 767px) {
     .cover {
         max-width: 375px;
-        height: 272px;  
-        margin: 0 auto 64px;
+        margin: 64px auto;
     }
  }
- @media screen and (max-width : 425px) {
+ @media screen  and (min-width : 375px) and (max-width : 424px) {
     .cover {
-        max-width: 288px;
-        height: 216px;  
-        margin: 0 auto 64px;
+        max-width: 375px;
+        margin: 48px auto;
+    }
+ }
+ @media screen and (min-width : 320px) and (max-width : 374px) {
+    .cover {
+       max-width: 320px;
+        margin: 64px auto; 
     }
  }

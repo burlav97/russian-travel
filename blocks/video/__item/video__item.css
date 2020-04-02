@@ -7,6 +7,8 @@
     color: #fff;   
     object-fit: cover; 
     position: relative;
+    border-radius: 5px;
+    overflow: hidden;
 }
 .video__item:hover .video__overlay {
     background-color: black;
@@ -26,5 +28,6 @@
         height: 200px;
         background-size: cover;
         object-fit: cover;
+        margin-top: -18px;
     }
  }
