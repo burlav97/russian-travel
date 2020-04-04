@@ -28,8 +28,8 @@
 @media screen and (min-width : 425px) and (max-width : 767px) {
     .place__image {
         margin-bottom: 24px;
-        width: 375px;
-        height: 375px;
+        width: 340px;
+        height: 340px;
     }
  }
  @media screen and (min-width : 375px) and (max-width : 424px) {
