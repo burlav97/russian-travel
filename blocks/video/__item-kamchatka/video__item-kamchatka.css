@@ -16,12 +16,11 @@
     .video__item-kamchatka {
         margin-bottom: 8px;
         margin-right: 0px;
-        padding: 0;
+        padding: 0 0 8px;
     }
  }
  @media screen and (max-width : 424px) {
     .video__item-kamchatka {
-        margin-bottom: 8px;
         margin-right: 0px;
     }
  }

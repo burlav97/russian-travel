@@ -9,3 +9,8 @@
     .video__item-observatory {
     }
  }
+ @media screen and (max-width : 424px) {
+    .video__item-observatory {
+        margin-top: 8px;
+    }
+ }
