@@ -14,12 +14,13 @@
     flex-direction: column;
     align-items: center;
     justify-content:flex-end; 
+    max-width: 1184px;
 }
 .cover:hover .cover__overlay {
     opacity: 0.8;
     background-color: #000;
 }
-@media screen and (min-width : 1024px) and (max-width : 1280px) {
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
     .cover {
         max-width: 1045px;
     }
